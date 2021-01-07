@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box Model</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        main {
+            font-family: 'Comfortaa', cursive;
+
+            /* slig legger man til kommentar i css*/
+            display: flex;
+            /* flex brukes til å plassere innhold */
+            flex-wrap: wrap;
+            /* flex-wrap brukes til å pakke innholdet der hvor det er plass dyttes ting opp og der det ikke er plass dyttes ting ned*/
+            /* brukes for å sentrere innhold*/
+            justify-content: center;
+
+            align-items: stretch;
+            margin: 40px;
+            padding: 20px;
+            background-color: darkcyan;
+            min-height: 500px;
+
+        }
+
+        div {
+            max-width: 300px;
+            margin: 40px;
+            padding: 20px;
+
+            border: lightseagreen solid 10px;
+            background-color: rgb(203, 255, 255);
+
+        }
+
+        .Paddingg {
+            background-color: lightcoral;
+        }
+        .amarginn {
+            background-color: aliceblue
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <div class="Paddingg">
+            <h2> Padding
+            </h2>
+            <p> Luft med bakgrunnsfarge
+            </p>
+        </div>
+
+        <div class="amarginn">
+            <h2> Margin
+            </h2>
+            <p> Margin er luft rundt innholded. Denne luften er usynlig.
+            </p>
+        </div>
+
+        <div class="aborderr">
+            <h2> Border
+            </h2>
+            <p> Border The CSS border properties allow you to specify the style, width, and color of an element's border. The
+                border property is a shorthand property for:border-width border-style (required) border-color If border-color
+                is omitted, the color applied will be the color of the text.
+
+            </p>
+        </div>
+
+        <div class="aboxmodellenn">
+            <h2>
+                <a href="https://www.w3schools.com/css/css_boxmodel.asp"> Boksmodellen </a>
+            </h2>
+            <p> Boksmodellen i CSS er en boks rundt hver HTML element. Den inneholder margins, borders, padding, and the actual
+                content. Bildet under illustrerer boksmodellen:
+            </p>
+
+        </div>
+
+
+
+        <div class="5aselector">
+            <h2>
+                <a href="https://www.w3schools.com/cssref/css_selectors.asp"> Selector </a>
+            </h2>
+
+            <p> Selector er kodene man skriver inn for å velge hvilke elementer man ønsker å designe eller spesifisere
+            </p>
+        </div>
+
+        <div class="6aattribute">
+            <h2> Attribute
+            </h2>
+            <p> CSS Attribute selector brukes til å velge et element med en spesifikk egenskap eller for å tillegge en verdi.
+                Det er en god måte å style HTML-elementer ved å gruppere de basert på spesifikke attributes
+            </p>
+        </div>
+
+        <div class="7avalue">
+            <h2> Value
+            </h2>
+            <p> Values er en del av Css reglene til CSS. Tillater bruk av tall, lengder, prosent, URLs, “Counters”, og farger.
+
+            </p>
+        </div>
+
+        <div class="8ap">
+            <h2> p taggen
+            </h2>
+            <p> P - står for paragraph og brukes oftest til mengdeteksten. Her kan man skrive generell tekst.
+            </p>
+        </div>
+
+        <div class="9ah1">
+            <h2> h1 taggen
+            </h2>
+            <p> Største overskrift i nettside.
+            </p>
+        </div>
+
+        <div class="kommentarHTML">
+            <h2>
+                <a href="https://www.w3schools.com/cssref/css_selectors.asp"> Kommentere i HTML </a>
+            </h2>
+
+            <p> ! -- Slik kommenterer man i HTML-- (med krokodilletegn)
+
+            </p>
+        </div>
+
+        <div class="kommentarCSS">
+            <h2>
+                <a href="https://www.w3schools.com/cssref/css_selectors.asp"> Kommentere i CSS </a>
+            </h2>
+
+            <p> /* slik legger man til kommentar i css*/
+            </p>
+        </div>
+
+        <div class="Lenker">
+            <h2>
+                <a href="https://www.w3schools.com/cssref/css_selectors.asp"> Hvordan skrive lenker? </a>
+            </h2>
+
+            <p> Skriv a og trykk på a: link
+            </p>
+        </div>
+
+        <div class="Bilder">
+            <h2>
+                <a href="https://www.w3schools.com/cssref/css_selectors.asp"> Legge til bilder </a>
+            </h2>
+
+            <p> img og trykk enter Bildet du skal legge inn må ligge i samme mappe som html-dokumentet ditt Skriv inn filnavnet
+                i img src="filnavn her" alt="" (krokodilletegnRundt) alt=”” er hva som vil stå hvis bildet ikke laster inn
+
+            </p>
+        </div>
+
+        <div class="Bakgrunnsfarge">
+            <h2>
+                <a href="https://www.w3schools.com/cssref/css_selectors.asp"> Endre bakgrunnsfarge </a>
+            </h2>
+
+            <p> Skriv: background-color: og så kommer det forslag til fargevalg.
+            </p>
+
+
+        </div>
+        <div class="mainHTML">
+            <h2>
+                <a href="https://www.w3schools.com/cssref/css_selectors.asp"> Hva brukes main i HTML til? </a>
+            </h2>
+
+            <p> Main er hvor man har innholdet av dokumentet. Kan ikke være mer enn en main.
+
+            </p>
+
+
+        </div>
+
+        <div class="FargeHex">
+            <h2>
+                <a href="https://www.w3schools.com/cssref/css_selectors.asp"> Skrive farge med HEX verdi </a>
+            </h2>
+
+            <p> Velg hva du vil farge med f.eks background-color: Skriv # og 3-6 tall med verdien 0-9, eller bokstavene a-f.
+
+            </p>
+            <p>0 er mørkest og f er lysest f.eks: #ffffff (hvit), #000000 (svart
+            </p>
+        </div>
+
+        <div class="FargeRgb">
+            <h2>
+                <a href="https://www.w3schools.com/cssref/css_selectors.asp"> Skrive farge med RGB verdi </a>
+            </h2>
+
+            <p> Skriv rgb(96, 168, 168) 
+                    (verdien til fargen i parantes)
+                    
+            </p>
+        </div>
+
+        <div class="FlexboxCSS">
+            <h2>
+                <a href="https://www.w3schools.com/cssref/css_selectors.asp"> Hva brukes flexbox i css til? </a>
+            </h2>
+
+            <p> Flexbox gjør det lettere å designe layout på nettsiden. Mer effektiv måte å plassere “Align” osv. Funker bra selv om størrelser er ukjente og/eller dynamisk.
+
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
